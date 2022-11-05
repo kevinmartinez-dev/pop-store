@@ -1,0 +1,42 @@
+.nav{
+    padding: 10px 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav__logo{
+    order: 1;
+    width: auto;
+}
+
+.nav__search{
+    order: 3;
+    margin: 25px auto;
+    padding: 15px;
+    width: 80%;
+    font-size: 1.2rem;
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 5px 10px 0.5px #24242432;
+}
+.nav__login{
+    order:2;
+    padding: 10px;
+    width: 100px;
+    background-color: #DC6459;
+    color: whitesmoke;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+}
+
+@media (min-width:980px){
+    .nav__search{
+        order: 2;
+        width: auto;
+        flex-grow: .8;
+    }
+}
