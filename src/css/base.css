@@ -1,3 +1,8 @@
+:root{
+    --var-background-primary: #e5eced;
+    --var-color-secondary: #66BFBF;
+    --var-color-white: #FFFFFF;
+}
 
 html, body, h1, h2, h3 ,h4 ,h5 ,h6{
     margin: 0;

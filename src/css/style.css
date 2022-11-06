@@ -1,4 +1,4 @@
 body{
-    background-color: #EAF6F6;
+    background-color: var(--var-background-primary);
     font-family: 'Secular One', sans-serif;
 }
