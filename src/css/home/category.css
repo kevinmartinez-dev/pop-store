@@ -30,10 +30,27 @@
     width: 80%;
     margin-bottom: 50px;
 }
+
 .category__item-img{
     border-radius: 5px;
     box-shadow: 0 0 20px 0.7 #242424;
     width: 100%;
+}
+.category__item-title{
+    font-size: .8rem;
+}
+.category__item-price{
+    font-size: 1rem;
+}
+.category__item-view{
+    background-color: var(--var-color-mblue);
+    border: none;
+    border-radius: 5px;
+    color: var(--var-color-white);
+    margin-top: 10px;
+    padding: .2rem .5rem;
+
+    
 }
 
 
@@ -41,8 +58,10 @@
 
 
 
-
 @media (min-width:980px){
+    .category{
+        margin: 5% 10%;
+    }
     .category__items{
         display: grid;
         font-size: 12pt;
