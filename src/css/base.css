@@ -1,7 +1,9 @@
 :root{
     --var-background-primary: #e5eced;
     --var-color-secondary: #66BFBF;
+    --var-color-secondary-lite: #66BFBF25;
     --var-color-white: #FFFFFF;
+    --var-color-mblue:#277BC0;
     --var-color-link: #396eac;
 }
 
@@ -15,8 +17,10 @@ html, body, h1, h2, h3 ,h4 ,h5 ,h6, p{
 }
 
 @media (min-width: 980px) {
-    body{
-        margin: 0 10%;
+    .nav{
+        margin: 0 auto;
+        width: 980px;
     }
+    
 
 }

@@ -1,0 +1,65 @@
+.footer{
+    background-color: var(--var-color-secondary-lite);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.footer__menu{
+    padding: 0;
+    list-style: none;
+    text-align: center;
+}
+
+.footer__menu-item{
+    margin-bottom: 1.2rem;
+}
+.footer__menu-item-link{
+    cursor: pointer;
+    text-decoration: none;
+    color: black;
+}
+
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+}
+
+.footer__contact-title{
+    text-align: left;
+}
+.footer__contact input, .footer__contact textarea{
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    margin-bottom: .7rem;
+    padding: 1rem;
+    resize: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.footer__contact-submit{
+    background-color: var(--var-color-secondary);
+    border: none;
+    border-radius: 2px;
+    color: whitesmoke;
+    font-size: medium;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    padding: .7rem;
+    width: 40%;
+}
+
+@media (min-width:980px){
+    .footer{
+        flex-direction: row;
+    }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+        width: calc(980px - 20%);
+    }
+}
