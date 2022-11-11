@@ -46,7 +46,7 @@
     .category__items{
         display: grid;
         font-size: 12pt;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: repeat(6, 1fr);
     }
     .category__item{
         width: 90%;
