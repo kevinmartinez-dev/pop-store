@@ -52,3 +52,14 @@
     padding: .7rem;
     width: 40%;
 }
+
+@media (min-width:980px){
+    .footer{
+        flex-direction: row;
+    }
+    .footer__contact{
+        display: flex;
+        flex-direction: column;
+        width: calc(980px - 20%);
+    }
+}
