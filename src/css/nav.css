@@ -23,20 +23,22 @@
     border-radius: 10px;
 }
 .nav__login{
-    order:2;
-    padding: 10px;
-    width: 100px;
     background-color: #DC6459;
-    color: whitesmoke;
-    font-weight: 700;
     border: none;
     border-radius: 15px;
+    color: whitesmoke;
+    order:2;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    width: 100px;
+    
 }
 
 @media (min-width:980px){
     .nav__search{
         order: 2;
         width: auto;
-        flex-grow: .8;
+        flex-grow: .5;
     }
 }
