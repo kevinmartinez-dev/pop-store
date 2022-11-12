@@ -1,9 +1,11 @@
 .footer{
+    align-items: center;
     background-color: var(--var-color-secondary-lite);
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: space-between;
-    align-items: center;
+    padding-top: 2%;
     text-align: center;
 }
 
@@ -53,9 +55,20 @@
     width: 40%;
 }
 
+.footer__credits{
+    background-color: var(--var-color-white);
+    font-size: small;
+    margin-top: 2%;
+    padding: 25px 0;
+    width: 100%;
+}
 @media (min-width:980px){
     .footer{
         flex-direction: row;
+        justify-content: space-around;
+    }
+    .footer__menu{
+        text-align: left;
     }
     .footer__contact{
         display: flex;
