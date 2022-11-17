@@ -35,6 +35,16 @@
     
 }
 
+.nav__button-transparent{
+    padding: 10px;
+    width: auto;
+    border: 2px solid var(--var-color-mblue);
+    border-radius: 5px;
+    background-color: transparent;
+    color: var(--var-color-mblue);
+    font-weight: bold;
+}
+
 @media (min-width:980px){
     .nav__search{
         order: 2;
