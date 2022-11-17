@@ -1,8 +1,9 @@
 .products__title{
-    margin: 0 auto;
-    margin-bottom: 25px;
+    align-items: center;
     display: flex;
     justify-content: space-between;
+    margin: 0 auto;
+    margin-bottom: 25px;
     width: 90%;
 }
 .products__title-add{
@@ -43,6 +44,20 @@
     color: var(--var-color-white);
     margin-top: 10px;
     padding: .2rem .5rem;
+}
 
-    
+@media (min-width:580px) and (max-width:980px){
+    .products__list{
+        display: grid;
+        font-size: 10pt;
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+@media (min-width:980px) {
+    .products__list{
+        display: grid;
+        font-size: 10pt;
+        grid-template-columns: repeat(6, 1fr);
+    }
 }

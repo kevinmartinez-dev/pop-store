@@ -1,0 +1,36 @@
+.form{
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 20px;
+}
+
+.form__title{
+    text-align: left;
+    width: 100%;
+}
+.form input, .form textarea{
+    border: none;
+    border-radius: 5px;
+    font-size: medium;
+    padding: 1rem;
+    resize: none;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px .5px #24242432;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.form__submit{
+    border: none;
+    border-radius: 5px;
+    background-color: var(--var-color-mblue);
+    color: var(--var-color-white);
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 15px;
+    width: 100%;
+}

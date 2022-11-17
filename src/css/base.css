@@ -16,6 +16,7 @@ html, body, h1, h2, h3 ,h4 ,h5 ,h6, p{
     color:rgb(110, 113, 116);
 }
 
+
 @media (min-width: 980px) {
     .nav{
         margin: 0 auto;
