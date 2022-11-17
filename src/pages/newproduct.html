@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/home/footer.css">
+    <link rel="stylesheet" href="../css/components/form.css">
+    <title>Nuevo producto</title>
+</head>
+<body>
+    <header class="nav">
+        <a href="/src/index.html"><img class="nav__logo" src="../assets/img/Logo.png" alt="Logotipo"></a>
+        <input class="nav__search" placeholder="Buscar...">
+    </header>
+    <main>
+        <form class="form products__add" action="">
+            <h3 class="form__title">Agregar producto</h3>
+            <input type="text" placeholder="URL de la imagen" class="form__input">
+            <input type="text" placeholder="Categoria">
+            <input type="text" placeholder="Nombre del producto">
+            <input type="text" placeholder="Precio del producto">
+            <textarea cols="30" rows="5" placeholder="Descripcion"></textarea>
+            <button type="submit" class="form__submit">Agregar producto</button>
+        </form>
+    </main>
+    <footer class="footer">
+        <img src="../assets/img/Logo.png" alt="Logo PopStore" class="footer__logo">
+        <ul class="footer__menu">
+            <li class="footer__menu-item">
+                <a href="#" class="footer__menu-item-link">Quienes somos</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-item-link">Politicas de privacida</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-item-link">Programa de fidelidad</a>
+            </li>
+            <li class="footer__menu-item">
+                <a href="" class="footer__menu-item-link">Nuestras tiendas</a>
+            </li>
+        </ul>
+        <form action="" class="footer__contact">
+            <h4 class="footer__contact-title">Habla con nosotros</h4>
+            <input type="text" class="footer__contact-names" placeholder="Nombre completo">
+            <input type="email" class="footer__contact-email" placeholder="Correo electronico">
+            <textarea cols="30" rows="8" class="footer__contact-message" placeholder="Mensaje..."></textarea>
+            <button type="submit" class="footer__contact-submit">Enviar mensaje</button>
+        </form>
+        <div class="footer__credits">
+            <p>Developer by Kevin Martinez <br> &copy; Copyright 2022.</p>
+        </div>
+    </footer>
+</body>
+</html>
