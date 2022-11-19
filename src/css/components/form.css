@@ -1,5 +1,6 @@
 .form{
     width: 90%;
+    max-width: 590px;
     margin: 0 auto;
     margin-bottom: 20px;
     display: flex;
