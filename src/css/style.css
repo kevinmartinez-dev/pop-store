@@ -2,3 +2,25 @@ body{
     background-color: var(--var-background-primary);
     font-family: 'Secular One', sans-serif;
 }
+
+.btn{
+    background-color: transparent;
+    border: 2px solid var(--var-color-mblue);
+    border-radius: 5px;
+    color: var(--var-color-mblue);
+    font-weight: bold;
+    padding: 10px 20px;
+    width: auto;
+}
+
+.bg-primary{
+    background-color: var(--var-color-mblue);
+    border: none;
+    color: var(--var-color-white);
+}
+
+.bg-secondary{
+    background-color: var(--var-color-secondary);
+    border: none;
+    color: var(--var-color-white);
+}
