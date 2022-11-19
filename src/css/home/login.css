@@ -17,13 +17,7 @@
 }
 
 .formLogin__submit{
-    border: none;
-    border-radius: 5px;
-    background-color: var(--var-color-mblue);
-    color: var(--var-color-white);
-    font-size: 1rem;
-    font-weight: bold;
-    padding: 15px 0;
+   width: 100%;
     
 }
 
