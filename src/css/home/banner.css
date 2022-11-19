@@ -14,10 +14,9 @@
 }
 
 .banner__description{
-    
     bottom: 10px;
     max-width: 80%;
-    font-size: small;
+    font-size: .8rem;
 }
 
 .banner__description-title{
@@ -35,11 +34,12 @@
 }
 
 .banner__description-button{
-    background-color: var(--var-color-secondary);
-    border: none;
-    border-radius: 5px;
     font-weight: bold;
-    padding: 5px 5px;
+    width: max-content;
+}
+
+.banner__description-button .btn{
+    font-size: .8rem;
 }
 
 .banner__description-text, .banner__description-button{
@@ -51,8 +51,5 @@
         font-size: 1.2rem;
         margin-left: 25px;
         max-width: 65%;
-    }
-    .banner__description-button{
-        font-size: 1rem;
     }
 }
